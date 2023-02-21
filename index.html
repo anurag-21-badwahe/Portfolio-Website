@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c85b8926d9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo">A<span style="color: white;">nurag.</span></p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i> 
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi,I'm <span style="color: red;">Anurag</span> from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------ABOUT SECTION------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="about-img" src="./images/fotor_2023-2-19_13_22_3.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="color: #d7d5d5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+                        quisquam at accusantium vero ipsum. Ratione repellat beatae temporibus incidunt atque
+                        laborum nulla repudiandae voluptas! Neque sit, nemo ducimus, cupiditate nobis totam ea
+                        aliquid quos recusandae velit voluptates provident inventore consequuntur quis quam
+                        atque
+                        eos nam dolorum nesciunt aperiam consequatur! Modi similique nihil officia, est nam
+                        maiores
+                        voluptate amet adipisci voluptatem dignissimos provident temporibus omnis illum natus
+                        fuga
+                        consectetur ratione quia. Sed id aspernatur maxime, nemo quaerat officiis, reiciendis
+                        autem
+                        placeat illum eum doloremque est delectus beatae accusamus labore iste. Eius recusandae
+                        voluptate excepturi laborum blanditiis sit praesentium magni facilis beatae?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Programmer</span><br>A problem solver</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Active Member</span><br>Active Member in FeebBox Club</li>
+                            <li><span>Learning</span><br> Learn a lot from Mistakes</li>
+                            <li><span>Freelance</span><br>Learn how to collabrate people</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>College</span><br>Institute of Engineering and Technology</li>
+                            <li><span>School</span><br>Miss Hill Public School</li>
+                            <li><span>Coding</span><br>C++,Javascript,Css,HTML</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------SERVICES------------------->
+    <div id="services">
+        <div class="container">
+            <h1 style="margin-top:40px" class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cupiditate sed quis
+                        recusandae
+                        neque <br></p1>
+                    <a href='#'>Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-product-hunt"></i>
+                    <h2>Programmer</h2>
+                    <p1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore molestiae reiciendis
+                        enim
+                        eaque sumenda!<br></p1>
+                    <a href='#'>Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>UI/UX Design</h2>
+                    <p1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat incidunt enim vero maxime
+                        omnis
+                        corrupti <br> </p1>
+                    <a href='#'>Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------PROTFOLIO-------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 style="margin-top:40px" class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.Download it from playstore
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.Download it from playstore
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping app</h3>
+                        <p>The app connects you to the talented people around the world.Download it from playstore
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- --------------------contact----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>anuragbadwahe@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>+916263824446</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name = "submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                   <span id = "msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Anurag.Made with Anurag pvt.ltd | All rights reserved</p>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
